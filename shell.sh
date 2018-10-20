@@ -21,6 +21,6 @@ touch commands.txt
 echo "cat" > commands.txt
 echo "ls" >> commands.txt
 echo "pwd" >> commands.txt
-touch lovelycommands.txt
-echo "cat" > lovelycommands.txt
+# cat ptes.txt commands.txt | sort | uniq >> lovelycommand.txt
+diff pet.txt commands.txt >> lovelycommand.txt
 
